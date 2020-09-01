@@ -1,19 +1,12 @@
-<p align="center">
-  <h1 align="center">preset-frontent</h1>
-  <p align="center">
-    <a href="https://github.com/use-preset/use-preset/releases">
-      <img alt="npx use-preset jjimmyflynn/preset-frontent" src="https://img.shields.io/badge/use--preset-preset-frontent-blue?style=flat-square">
-    </a>
-    &nbsp;
-    <a href="https://www.npmjs.com/package/use-preset">
-      <img alt="use-preset version" src="https://img.shields.io/npm/v/use-preset?color=32c854&style=flat-square&label=use-preset">
-    </a>
-  </p>
-  <br />
-  <p align="center">
-    <b>Preset</b> is a scaffolding tool for developers. <a href="https://usepreset.dev/">Read the documentation</a> for more information.
-  </p>
-  <br />
-  <pre align="center">npx use-preset jjimmyflynn/preset-frontent</pre>
-  &nbsp;
-<p>
+
+# Front-End Preset
+A preset for scaffolding my preferred front-end setup on projects
+  
+Utilizes [preset.js](https://usepreset.dev/)
+  
+Run it with: `npx use-preset jjimmyflynn/preset-frontend`
+
+The preset:
+* Copies a SASS starting point to `resources/styles`
+* Optionally sets up ESlint with the [Standard Ruleset](https://github.com/standard/eslint-config-standard)
+* Optionally sets up Stylelint with the [Recess Ordering plugin](https://github.com/stormwarning/stylelint-config-recess-order)

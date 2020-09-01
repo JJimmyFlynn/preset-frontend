@@ -1,6 +1,7 @@
 const { Preset } = require('use-preset');
 
 module.exports = Preset.make('Flynndustries Front-end')
+	.setTemplateDirectory('/')
 	.prompts()
 		.confirm('Setup ESLint?', 'useEslint')
 		.confirm('Setup Stylelint?', 'useStylelint')
