@@ -1,0 +1,33 @@
+/*
+/* Global Document Styles
+/**********************************************************************/
+
+//-----------------------------------------
+// Base HTML Styles
+//-----------------------------------------
+html {
+    min-height: 100%;
+    font-size: 10px; // Easier REM values
+
+    text-size-adjust: 100%;
+}
+
+//-----------------------------------------
+// Images
+//-----------------------------------------
+img {
+  max-width: 100%;
+  display: block;
+  vertical-align: middle; //Setting `vertical-align` removes the whitespace that appears under `img`
+  font-style: italic; //Offset `alt` text from surrounding copy
+}
+
+//-----------------------------------------
+// Lists
+//-----------------------------------------
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0; // Remove extra vertical spacing when nesting lists.
+  }
+}
