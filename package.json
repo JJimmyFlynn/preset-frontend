@@ -1,7 +1,7 @@
 {
 	"name": "preset-frontend",
 	"license": "MIT",
-	"preset": "src/preset.js",
+	"preset": "preset.js",
 	"version": "0.0.0",
 	"private": "true",
 	"devDependencies": {
