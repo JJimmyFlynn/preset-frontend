@@ -5,8 +5,17 @@
 	"version": "0.0.0",
 	"private": "true",
 	"devDependencies": {
-		"use-preset": "^0",
-		"standard-version": "^8.0.2"
+		"eslint": "^7.8.0",
+		"eslint-config-standard": "^14.1.1",
+		"eslint-plugin-import": "^2.22.0",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.1",
+		"prettier-stylelint-formatter": "^0.5.0",
+		"standard-version": "^8.0.2",
+		"stylelint": "^13.6.1",
+		"stylelint-config-recess-order": "^2.1.0",
+		"use-preset": "^0"
 	},
 	"scripts": {
 		"release": "standard-version --skip.changelog"
